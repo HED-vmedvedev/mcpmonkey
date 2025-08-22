@@ -22,4 +22,14 @@ public class Monkey
     /// Gets or sets the estimated population of the monkey species.
     /// </summary>
     public int Population { get; set; }
+
+    /// <summary>
+    /// Gets or sets the latitude of the monkey's habitat.
+    /// </summary>
+    public double? Latitude { get; set; }
+
+    /// <summary>
+    /// Gets or sets the longitude of the monkey's habitat.
+    /// </summary>
+    public double? Longitude { get; set; }
 }
